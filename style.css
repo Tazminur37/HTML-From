@@ -1,0 +1,80 @@
+
+            @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+            *,
+            html {
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                font-family: 'dm sans';
+
+                letter-spacing: -0.5px;
+
+            }
+
+            form {
+                /* display: inline; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin: 100px 0 0 0;
+                width: 100%;
+            }
+
+            form h3 {
+                color: red;
+                font-size: 24px;
+                font-weight: 400;
+            }
+
+            .form-tajminur {
+                display: inline-flex;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 24px;
+            }
+
+            .input-hold {
+                display: inline-flex;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .input-hold span {
+                text-transform: capitalize;
+            }
+
+            input {
+                padding: 12px 24px;
+                background: transparent;
+                border: 2px rgb(231, 229, 231) solid;
+                outline: none;
+                font: 1em sans-serif;
+                border-radius: 4px;
+            }
+
+            input:hover {
+                border: 2px green solid;
+            }
+
+            input:focus {
+                border: 2px rgba(64, 61, 226, 0.389) solid;
+                background: #dff1ff;
+            }
+
+            #submit {
+                padding: 12px 24px;
+                width: 100%;
+                border: none;
+                background: #128deb;
+                font-size: 18px;
+                color: #ffffff;
+                font-weight: 100;
+                text-transform: capitalize;
+                cursor: pointer;
+            }
+#submit:hover{
+    background: #000;
+}
